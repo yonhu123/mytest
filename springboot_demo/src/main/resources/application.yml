@@ -1,0 +1,38 @@
+#普通数据格式: key: val
+usernames: tom
+
+#对象数据配置格式之一
+person1:
+  name: 张三
+  birthday: 2000-10-10
+  phone: 12345678910
+
+#对象数据配置格式之二
+person2: {name: 李四, birthday: 2008-10-10, phone: 13654879520}
+
+#数组数据配置一
+city1:
+  -广州
+  -深圳
+
+#数组数据配置二
+city2:
+  [a, b, c, d]
+
+#对象数组配置
+persons1:
+  - name: tom
+    birthday: 1999-12-12
+    phone: 13645278951
+  - name: lisa
+    birthday: 2012-10-24
+    phone: 15136548972
+
+#对象数组配置2
+persons2: [{name: xxx, birthday: 2002-01-01, phone: 13645879241}]
+
+#spring
+server:
+  port: 8080
+  servlet:
+    context-path: /
